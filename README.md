@@ -16,7 +16,7 @@ Go to the directoy `notebooks` and run `jupyter notebook` from here. It should d
 
 ```
 docker pull twiecki/pydata-docker-jupyterhub
-docker run -it -p 8888:8888 -p 6006:6006 twiecki/pydata-docker-jupyterhub bash
+docker run -it -p 8888:8888 twiecki/pydata-docker-jupyterhub bash
 cd ..; git clone https://github.com/pilipolio/schibsted-study.git; 
 jupyter notebook --notebook-dir=./schibsted-study/notebooks --ip=* --no-browser
 ```
