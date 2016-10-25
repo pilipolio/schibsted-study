@@ -11,3 +11,12 @@
 ## Running a notebook
 
 Go to the directoy `notebooks` and run `jupyter notebook` from here. It should directly open a browser tab where you can open each notebooks. 
+
+## Dockerized option
+
+```
+docker pull twiecki/pydata-docker-jupyterhub
+docker run -it -p 8888:8888 -p 6006:6006 twiecki/pydata-docker-jupyterhub bash
+cd ..; git clone https://github.com/pilipolio/schibsted-study.git; 
+jupyter notebook --notebook-dir=./schibsted-study/notebooks --ip=* --no-browser
+```
