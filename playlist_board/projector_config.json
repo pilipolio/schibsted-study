@@ -1,0 +1,1 @@
+{"embeddings": [{"metadataPath": "artist_embeddings.tsv", "bookmarksPath": "", "tensorName": "Artist input embeddings", "tensorShape": [1326, 50], "tensorPath": "input_embeddings.tsv"}, {"metadataPath": "artist_embeddings.tsv", "bookmarksPath": "", "tensorName": "Artist output embeddings", "tensorShape": [1326, 50], "tensorPath": "output_embeddings.tsv"}]}
